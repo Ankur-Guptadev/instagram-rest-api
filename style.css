@@ -1,10 +1,10 @@
-body {
+.mainBody {
     background-color: black;
 }
 header {
     height: 727px;
     width: 16%;
-    border: 1px solid black;
+    border: 1px solid rgba(63, 63, 63, 0.426);
     padding: 8px 12px 20px 12px;
     background-color: black;
     border-radius: 10px 0 0 10px;
@@ -79,5 +79,85 @@ i {
 .MoreHamber {
     position: relative;
     right: 50px;
+    color: rgba(8, 0, 0, 0.955);
+}
+
+main {
+    background-color: black;
+    width: 75%;
+    height: 2500px;
+    border: 5px rgb(0, 0, 0) solid;
+    position: relative;
+    left: 177px;
+    top: -726px;
+    margin-left: 110px;
+    margin-right: 110px; 
+     padding: 30px 60px 30px 60px;
+}
+
+.btn-group .btn {
+    margin-right: 20px;
+    position:relative;
+    top: 8px;
+}
+
+.upperuserN {
+    height: 40px;
+    width: 350px;
+    position:relative;
+    left: 400px;
+    display:flex; 
+}
+
+.user-name {
+    margin-right: 30px;
+    position:relative;
+    top: 14px;
     color: white;
 }
+
+.addImg {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 850px;
+    top: 38px;
+    border: 2px gray solid;
+    padding: none;
+}
+
+.Prof-Div {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    position: absolute;
+    left: 190px;
+}
+
+.Prof-img {
+    height: 150px;
+    width: 150px;
+       border-radius: 100%;
+     object-fit: inherit;
+} 
+
+.Post-Detl h7{
+    color:white;
+    position: relative;
+    left: 394px;
+    top: 25px;
+     margin-right: 20px;
+}
+
+.Post-Disrp p{
+    color: white;
+    position: relative;
+    left: 394px;
+    top: 40px;
+}
+
+
+
+
+
+
