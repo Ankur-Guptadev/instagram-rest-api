@@ -156,6 +156,47 @@ main {
     top: 40px;
 }
 
+.descrip {
+    width: 370px;
+    position: relative;
+    left: 380px;
+    top: 60px;
+    
+}
+.descrip p {
+    height: 12px;
+    font-size: 13.5px;
+    color: white;
+    padding: 0px;
+    margin-bottom: 9px;
+}
+
+.status {
+    width: 750px;
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 130px;
+    top: 110px;
+
+}
+
+.status div{
+    object-fit:inherit;
+    height:100px;
+    width:100px;
+    border-radius: 100px;
+
+}
+
+.status div img {
+       border:5px rgb(55, 62, 66) solid;
+     height:100px;
+    width: 100px;
+    border-radius: 100px;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+}
 
 
 
