@@ -22,7 +22,7 @@
             <button type="button" class="btn-item list-group-item list-group-item-action"><h6><img class="imgInsta" src="assets/instagram-reels-white-icon.png" alt="reelpic"> Reels</h6></button>
             <button type="button" class="btn-item list-group-item list-group-item-action"><h6><img class="imgInsta" src="assets/226253.png"> Messages</h6></button>
             <button type="button" class="btn-item list-group-item list-group-item-action"><h6><img class="imgInsta" src="assets/heart Notify.png"> Notifications</h6></button>
-            <button type="button" class="btn-item list-group-item list-group-item-action"><h6><img class="imgInsta" src="assets/plus_white.png"> Create</h6></button>
+            <button type="button" class="btn-item list-group-item list-group-item-action"><h6><img class="imgInsta" src="assets/plus_white.png"> <a href="http://localhost:8080/posts/new">Create New Post</a></h6></button>
             <button type="button" class="btn-item list-group-item list-group-item-action"><h6><img class="imgInsta" src="assets/cropped_avatar-removebg-preview.png"> Profile</h6></button>
             <button type="button" class="btn-item list-group-item list-group-item-action"><h6><img class="imgInsta" src="assets/new meta.png"> Meta Ai</h6></button>
             <button type="button" class="btn-item list-group-item list-group-item-action"><h6><img class="imgTreads" src="assets/thrades.png"> Threads</h6></button>
@@ -94,19 +94,84 @@
        </div>
 
        <div class="status">
-        <div><img src="assets/GaurNitai1.jpg" ></div>
-        <div><img src="assets/RK4.jpg" ></div>
-        <div><img src="assets/krishna Posts pic1.jpg"></div>
-        <div><img src="assets/RK3.jpg"></div>
-        <div><img src="assets/chaitanya mahaprabhu post.jpg"></div>
-        <div><img src="assets/Gaura Krishna.jpg"></div>
+        <div><img src="assets/GaurNitai1.jpg" ><h6 class="statusName">Gaur Nitai</h6></div>
+        <div><img src="assets/RK4.jpg" ><h6 class="statusName">Sri Radha Madhav</h6></div>
+        <div><img src="assets/krishna Posts pic1.jpg"><h6 class="statusName">Love sevice</h6></div>
+        <div><img src="assets/RK3.jpg"><h6 class="statusName">Radha Krishna</h6></div>
+        <div><img src="assets/chaitanya mahaprabhu post.jpg"><h6 class="statusName">Gaur Nitai</h6></div>
+        <div><img src="assets/Gaura Krishna.jpg"><h6 class="statusName">Sri KrishnaChaitanya</h6></div>
+       </div>
+
+    
+
+       <div class="posts">
+           <!-- post 1 -->
+             <div>
+                    <img class="posts-img" src="assets/K1.jpg">
+                <h3 class="tital">the brajwasi lila </h3>
+                <h4 class="content"> The Brajlila of Little Krishna refers to the divine playful acts (lilas) of Lord Krishna in his
+                    childhood and youth in the land of Braj (or Vraj).
+            
+                </h4>
+                <br>
+                <a href="http://localhost:8080/posts/>">See in Detail</a>
+                <a href="http://localhost:8080/posts/>/edit">Edit</a>
+                <form method="post" action="/posts/<%=post.id%>?_method=DELETE">
+                    <button>Delete Post</button>
+            </div>
+          <!-- post 2 -->
+            <div>
+                <img class="posts-img" src="assets/modern krishna for posts.jpeg">
+                <h3 class="tital">the brajwasi lila </h3>
+                <h4 class="content"> The Brajlila of Little Krishna refers to the divine playful acts (lilas) of Lord Krishna in his
+                    childhood and youth in the land of Braj (or Vraj).
+            
+                </h4>
+                <br>
+                <a href="http://localhost:8080/posts/>">See in Detail</a>
+                <a href="http://localhost:8080/posts/>/edit">Edit</a>
+                <form method="post" action="/posts/<%=post.id%>?_method=DELETE">
+                    <button>Delete Post</button>
+            </div>
+
+             <!-- post 3 -->
+
+            <div> <img class="posts-img" src="assets/Laughing Krishna Profile pic.jpeg">
+                <h3 class="tital">the brajwasi lila </h3>
+                <h4 class="content"> The Brajlila of Little Krishna refers to the divine playful acts (lilas) of Lord Krishna in his
+                    childhood and youth in the land of Braj (or Vraj).
+            
+                </h4>
+                <br>
+                <a href="http://localhost:8080/posts/>">See in Detail</a>
+                <a href="http://localhost:8080/posts/>/edit">Edit</a>
+                <form method="post" action="/posts/<%=post.id%>?_method=DELETE">
+                    <button>Delete Post</button>
+            </div>
+
+
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
        </div>
 
 
 
     </main>
 
-    <footer>foot area for</footer>
+  
 
     </section>
     

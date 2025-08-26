@@ -2,6 +2,9 @@
     background-color: black;
 }
 header {
+     position:sticky;
+     left: 0;
+     top: 0;
     height: 727px;
     width: 16%;
     border: 1px solid rgba(63, 63, 63, 0.426);
@@ -22,7 +25,7 @@ header {
  position: relative;
  top: 10px;
  left: 15px;
-
+  object-fit: cover;
   
     
 }
@@ -85,7 +88,7 @@ i {
 main {
     background-color: black;
     width: 75%;
-    height: 2500px;
+    height: 2350px;
     border: 5px rgb(0, 0, 0) solid;
     position: relative;
     left: 177px;
@@ -194,10 +197,53 @@ main {
        border:5px rgb(55, 62, 66) solid;
      height:100px;
     width: 100px;
-    border-radius: 100px;
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+    border-radius: 100px;  
+      object-fit: cover;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 }
 
+.statusName {
+    color: white;
+    position: relative;
+    left: 18px;
+    padding-top:10px;
+    font-size: 13px;
+}
+
+.posts {
+    border: 5px white solid;
+    height: 100%;
+    width: 92%;
+      display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 60px;
+    top: 230px;
+}
+
+.posts div {
+  
+    width: 33.3%;
+    height: 400px;
+    background-color: white;
+    border: 2px red solid;
+
+}
+
+.posts-img {
+    margin: 0px 0px 0 0px;
+     height: 260px;
+      width: 300px;
+     object-fit: cover;
+}
+
+.content {
+    height: 15px;
+    font-size: 12px;
+}
+
+.posts div{
+    background-color: rgb(238, 199, 128);
+}
 
 
 
