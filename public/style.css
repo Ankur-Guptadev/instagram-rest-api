@@ -1,0 +1,331 @@
+.mainBody {
+    background-color: black;
+}
+header {
+     position:sticky;
+     left: 0;
+     top: 0;
+    height: 800px;
+    width: 16%;
+    border: 1px solid rgba(63, 63, 63, 0.426);
+    padding: 8px 12px 20px 12px;
+    background-color: black;
+    border-radius: 10px 0 0 10px;
+}
+.logo {
+    height:90px;
+    /* border: 2px white solid; */
+}
+
+#logo_img {
+  height: 50px;
+  width: 50%;
+  background-color: black;
+ padding: 2px 1px 2px 1px;
+ position: relative;
+ top: 10px;
+ left: 15px;
+  object-fit: cover;
+  
+    
+}
+
+.list-group-item.btn-item {
+  background-color: black;
+   border: none;
+   
+}
+
+.btn-item {
+  height: 55px;
+  border-radius: 10px;
+  background-color: black;
+  border: none;
+}
+
+.btn-item h6 {
+    height: 100%;
+    width: 100%;
+  color: white;
+background-color: black !important;
+
+}
+
+.imgInsta {
+    height: 25px;
+    width: 35px;
+    background-color: black;
+    padding-right:10px ;
+}
+
+i {
+    height: 15px;
+    width: 30px;
+}
+
+.imgTreads {
+    height: 35px;
+    width: 40px;
+    background-color: black;
+    position: relative;
+    left: -10px;
+}
+
+#hamberger {
+    height: 60px;
+    width: 80%;
+    /* background-color: white; */
+    border: 2px white solid;
+  
+}
+
+.MoreHamber {
+    position: relative;
+    right: 50px;
+    color: rgba(8, 0, 0, 0.955);
+}
+
+main {
+    background-color: black;
+    width: 75%;
+    height: 2350px;
+    border: 5px rgb(0, 0, 0) solid;
+    position: relative;
+    left: 174px;
+    top: -770px;
+    margin-left: 110px;
+    margin-right: 110px; 
+     padding: 0px 60px 30px 60px;
+}
+
+.btn-group .btn {
+    margin-right: 20px;
+    position:relative;
+    top: 8px;
+}
+
+.upperuserN {
+    height: 40px;
+    width: 350px;
+    position:relative;
+    left: 400px;
+    display:flex; 
+}
+
+.user-name {
+    margin-right: 30px;
+    position:relative;
+    top: 14px;
+    left: -20px;
+    color: white;
+}
+
+.addImg {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 850px;
+    top: 38px;
+    border: 2px gray solid;
+    padding: none;
+}
+
+.Prof-Div {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    position: absolute;
+    left: 190px;
+}
+
+.Prof-img {
+    height: 150px;
+    width: 150px;
+       border-radius: 100%;
+     object-fit: inherit;
+} 
+
+.Post-Detl h7{
+    color:white;
+    position: relative;
+    left: 394px;
+    top: 25px;
+     margin-right: 20px;
+}
+
+.Post-Disrp p{
+    color: white;
+    position: relative;
+    left: 394px;
+    top: 40px;
+}
+
+.descrip {
+    width: 370px;
+    position: relative;
+    left: 380px;
+    top: 60px;
+    
+}
+.descrip p {
+    height: 12px;
+    font-size: 13.5px;
+    color: white;
+    padding: 0px;
+    margin-bottom: 9px;
+}
+
+.status {
+    width: 750px;
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 130px;
+    top: 110px;
+
+}
+
+.status div{
+    object-fit:inherit;
+    height:100px;
+    width:100px;
+    border-radius: 100px;
+
+}
+
+.status div img {
+       border:5px rgb(55, 62, 66) solid;
+     height:100px;
+    width: 100px;
+    border-radius: 100px;  
+      object-fit: cover;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+}
+
+.statusName {
+    color: white;
+    position: relative;
+    left: 18px;
+    padding-top:10px;
+    font-size: 13px;
+}
+
+.posts {
+    /* border: 5px white solid; */
+    height: 100%;
+    width: 92%;
+      display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 60px;
+    top: 230px;
+}
+/* 
+.getpost {
+    background-color: burlywood;
+    height: 420px;
+    width: 33%;
+    border: 4px darkslategrey solid;
+} */
+
+.posts-img {
+    height: 80%;
+    width: 100%;
+     object-fit: cover; 
+}
+
+.tital {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 25px;
+    width: 200px;
+    color: white;
+    border: 2px white solid;
+}
+
+.post_content{
+    border: 2px red solid;
+    height:30px;
+    width: 250px;
+   overflow-x: scroll;
+   overflow-y: scroll;
+}
+
+/* from ai  */
+
+.getpost {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* spacing between cards */
+  padding: 20px;
+  height: 600px;
+}
+
+@media (max-width: 768px) {
+  .getpost {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .getpost {
+    grid-template-columns: 1fr;
+  }
+}
+
+.post {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  text-align: center;
+  overflow: hidden;
+  height: 500px;
+}
+.posts-img {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.topic {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.content {
+  display: block;
+  margin: 10px 0;
+  color: #555;
+}
+a {
+  margin: 5px;
+  display: inline-block;
+  color: #007bff;
+  text-decoration: none;
+}
+button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.show_section {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  max-width: 33rem;
+  width: 100%;
+}
+
+
+
+
+
+
+

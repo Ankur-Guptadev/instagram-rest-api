@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show in detail</title>
+      <link rel="stylesheet" href="/public/style.css" >
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+</head>
+<body>
+      <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      position: relative;
+    }
+
+    .show_section {
+      position: absolute;
+      top: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .card {
+      max-width: 33rem;
+      width: 100%;
+    }
+  </style>
+
+ <div class="show_section">
+  <div class="card border-success mb-3" style="max-width: 33rem ">
+      <div class="card-header bg-transparent border-success"><h3>Here is your post in detail </h3></div>
+      <div class="card-body text-success">
+        <img src="/<%= post.image1%>" style="max-width:30rem;">
+        <h5 class="card-title"><%=post.topic%></h5>
+        <p class="card-text"><%=post.content%></p>
+      </div>
+      <div class="card-footer bg-transparent border-success">Thank You For Visiting our website</div>
+    </div>
+</div>
+  
+
+</body>
+</html>
